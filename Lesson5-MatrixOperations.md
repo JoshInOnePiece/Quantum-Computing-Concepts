@@ -2,7 +2,7 @@
 ## What is a matrix?
 - Rectangular array of values. The dimensions are described as "n rows x m columns"
     - An example of a 2 x 3 matrix is shown below:
-        - $\begin{bmatrix} 1 && 2 && 3\\
+        - $\begin{bmatrix} 1 && 2 && 3\\\
                            4 && 5 && 6\end{bmatrix}$
 ## Matrix Multiplication
 - You can multiply two matrices if the columns of the first matrix is equal to the rows of the second matrix
