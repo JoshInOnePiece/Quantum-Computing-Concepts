@@ -14,5 +14,5 @@
 - Representing multiple qubits in superposition is similar to doing it with just one qubit. It is a linear combination of all the possible states. For example, for two qubits the superposition would be:
     - $\ket{\psi} = a\ket{00} + b\ket{01} + c\ket{10} + d\ket{11} = \begin{bmatrix} a\\b\\c\\d\end{bmatrix}$
 - Uniform superposition: every possible outcome has an equal probability when you measure the set of qubits
-# How much information can qubits hold
+## How much information can qubits hold
 - With all the superposition states that qubits can take up, they can represent a variety of different values during processing. But this is only for processing, since when you measure the data the qubit collapses to a 0 or 1. Thus, in processing there is a lot more you can do with qubits, but for extraction it is exactly the same as a classical computer
