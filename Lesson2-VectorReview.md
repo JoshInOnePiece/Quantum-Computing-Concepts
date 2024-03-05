@@ -12,6 +12,11 @@ $$
 1 \\
 \end{bmatrix}
 $$
+$$ \begin{bmatrix} 
+   a & b & c \\
+   c & e & f \\
+   g & h & i \\
+   \end{bmatrix} $$
 - Magnitude of vector B notation: || B ||
 - Multiplying a vector by a scalar, proportionally affects the vectors magnitude
 - Normalization is just making a vector the unit vector where the magnitude is 1.
@@ -112,12 +117,12 @@ $$
 - As the name suggest the conjugate transpose is finding the conjugate of the vector and then transposing it
     - So, $\vec{E}^{\dagger} \equiv (\vec{E}^{T})^{*} \equiv (\vec{E}^{*})^{T}$
         - T represents transposing the vector and * represents the conjugate of the vector
-$$\vec{E} = $$
 $$
+\vec{E} = 
 \begin{bmatrix}
-2i \\
-13 \\
-6-i \\
+2i\\
+13\\
+6-i
 \end{bmatrix}
 $$
 $$
