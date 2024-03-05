@@ -112,8 +112,8 @@ $$
 - As the name suggest the conjugate transpose is finding the conjugate of the vector and then transposing it
     - So, $\vec{E}^{\dagger} \equiv (\vec{E}^{T})^{*} \equiv (\vec{E}^{*})^{T}$
         - T represents transposing the vector and * represents the conjugate of the vector
+$$\vec{E} = $$
 $$
-\vec{E} = 
 \begin{bmatrix}
 2i \\
 13 \\
