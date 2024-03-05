@@ -3,11 +3,13 @@
 - Vector is a set of values that represents a quantity that has a magnitude and direction
 - Vector dimension defines the space where the vector travels
     - Vectors in this case are written like matrices. Below is a column vector that is three dimensions because it has three rows. A two dimension vector would only have two rows, in this case. 
+
+
 $$
 \begin{bmatrix}
-3\\
-5\\
-1
+3 \\
+5 \\
+1 \\
 \end{bmatrix}
 $$
 - Magnitude of vector B notation: || B ||
