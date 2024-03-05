@@ -24,14 +24,14 @@ $$
     $$
     \vec{C} = 
     \begin{bmatrix} 
-    3\\
-    1\\
+    3 \\
+    1 \\
     \end{bmatrix}
     $$
     $$
     \vec{D} = 
     \begin{bmatrix} 
-    1&&2
+    1 && 2 \\
     \end{bmatrix}
     $$
     $$
@@ -43,13 +43,13 @@ $$
     $$
     \vec{C} = 
     \begin{bmatrix} 
-    4&&5
+    4 && 5 \\
     \end{bmatrix}
     $$
     $$
     \vec{D} = 
     \begin{bmatrix}
-    3&&7
+    3 && 7 \\
     \end{bmatrix}
     $$
     Must tranpose either vector C or C, I will do vector D
@@ -57,8 +57,8 @@ $$
     $$
     \vec{D}^{T} = 
     \begin{bmatrix}
-    3\\
-    7
+    3 \\
+    7 \\
     \end{bmatrix}
     $$
     Resulting inner product:
