@@ -25,53 +25,56 @@ $$ \begin{bmatrix}
 - Inner product is just dot product from calc 3, except you can only do inner product of two vectors of the same dimension and one must be a column vector and the other must be a row vector.
     - If you have a two row or column vectors, you must transpose one of them before you calculate the inner product
         - Notation for transposed vector is the vector letter to the power T
-    - Example (one column and one row vector):
-    $$
-    \vec{C} = 
-    \begin{bmatrix} 
-    3\\
-    1\\
-    \end{bmatrix}
-    $$
-    $$
-    \vec{D} = 
-    \begin{bmatrix} 
-    1&&2
-    \end{bmatrix}
-    $$
-    $$
-    \vec{C} \cdot \vec{D}
-    \equiv
-    (1*3) + (2*1) = 5
-    $$
-    Example: Two row vectors
-    $$
-    \vec{C} = 
-    \begin{bmatrix} 
-    4&&5
-    \end{bmatrix}
-    $$
-    $$
-    \vec{D} = 
-    \begin{bmatrix}
-    3&&7
-    \end{bmatrix}
-    $$
-    Must tranpose either vector C or C, I will do vector D
-    <br>Transposing D:
-    $$
-    \vec{D}^{T} = 
-    \begin{bmatrix}
-    3\\
-    7
-    \end{bmatrix}
-    $$
-    Resulting inner product:
-    $$
-    \vec{C} \cdot \vec{D}^T
-    \equiv
-    (4*3) + (5*7) = 12 + 35 = 47
-    $$
+- Example (one column and one row vector):
+```math
+\vec{C} =  
+\begin{bmatrix}
+3 \\
+1 \\
+\end{bmatrix}
+```
+  
+```math
+\vec{D} = 
+\begin{bmatrix} 
+1&&2
+\end{bmatrix}
+```
+
+```math
+\vec{C} \cdot \vec{D}
+\equiv
+(1*3) + (2*1) = 5
+```
+- Example: Two Row Vectors
+
+```math
+\vec{C} = 
+\begin{bmatrix} 
+4&&5
+\end{bmatrix}
+```
+```math
+\vec{D} = 
+\begin{bmatrix}
+3&&7
+\end{bmatrix}
+```
+Must tranpose either vector C or C, I will do vector D
+<br>Transposing D:
+```math
+\vec{D}^{T} = 
+\begin{bmatrix}
+3\\
+7
+\end{bmatrix}
+```
+Resulting inner product:
+```math
+\vec{C} \cdot \vec{D}^T
+\equiv
+(4*3) + (5*7) = 12 + 35 = 47
+```
 
 
 - Orthonormal basis:
@@ -80,17 +83,17 @@ $$ \begin{bmatrix}
     - Orthonormal: vectors are unit vectors and orthogonal
     - Orthonormal Basis: two unit vectors that are orthogonal to each other that can be used to represent any vector within a vector space through linear combination. Except, the unit vectors in the orthonormal basis cannot individually represent the other because they are orthogonal (they are linearly independent of each other) 
     - Example of vectors with an orthonormal basis are:
-    $$
+   ```math
     \begin{bmatrix}
     0\\
     1\\
     \end{bmatrix}
-    and
+    ,
     \begin{bmatrix}
     1\\
     0\\
     \end{bmatrix}
-    $$
+    ```
 - Lineraly Independent: vector that cannot be expressed as a linear combination of other vectors
     - There is no way you can represent <0,1> as <1,0> (this is another way to represent vectors within math in general) since they are orthogonal
         - These two vectors are the most simple and common. They are also used to represent the standard basis states for qubits
@@ -115,19 +118,19 @@ $$ \begin{bmatrix}
 ### Conjugate Transpose of Vector
 - Also known as the Hermitian Conjugate or Hermitian Transpose
 - As the name suggest the conjugate transpose is finding the conjugate of the vector and then transposing it
-    - So, $\vec{E}^{\dagger} \equiv (\vec{E}^{T})^{*} \equiv (\vec{E}^{*})^{T}$
+    - So, $` \vec{E}^{\dagger} \equiv (\vec{E}^{T})^{*} \equiv (\vec{E}^{*})^{T} `$
         - T represents transposing the vector and * represents the conjugate of the vector
-$$
+```math
 \vec{E} = 
 \begin{bmatrix}
 2i\\
 13\\
 6-i
 \end{bmatrix}
-$$
-$$
+```
+```math
 \vec{E}^{\dagger} = 
 \begin{bmatrix}
 -2i && 13 && 6+i
 \end{bmatrix}
-$$
+```
